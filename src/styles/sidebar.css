@@ -1,0 +1,81 @@
+.sidebar {
+  height: 100%;
+  background-color: #0E1A35;
+  color: white;
+  width: 319px;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+
+.sidebar.closed {
+  height: 100%;
+  background-color: #0E1A35;
+  color: white;
+  width: 0;
+  transition: 0.2s ease-in-out;
+
+}
+
+.sidebar_wrapper {
+  padding-top: 29px;
+  overflow: hidden;
+}
+
+.sidebar .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-items li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  list-style-type: none;
+  font-size: 24px;
+  height: 101px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.438);
+  border-left: 8px solid #5585ff00;
+}
+
+/* used important for not causing the div to move when border is added */
+.active {
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+  border-left: 8px solid #5584FF !important;
+}
+
+.sidebar-items li:hover {
+  cursor: pointer;
+  background: #5585ff6c;
+}
+
+.sidebar .sidebar_icon {
+  color: hsl(223, 100%, 66%);
+  margin-right: 10px;
+}
+
+.sidebar_item_wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 770px) {
+  .sidebar {
+    width: 43px;
+  }
+
+  .sidebar .logo {
+    display: none;
+  }
+}

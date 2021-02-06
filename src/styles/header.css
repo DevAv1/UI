@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.75);
+
+}
+
+.hamburger_icon:hover {
+  cursor: pointer;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header .header_item {
+  margin: 0 15px;
+  color: #0E1A35;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left .left_arrow_icon {
+  position: absolute;
+  transform: translate(-60%);
+}
+
+.header_left .fa-search {
+  padding: 0 20px;
+}
+
+.header_right > button {
+  display: flex;
+  align-items: center;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #5584FF;
+  color: white !important;
+  font-size: 12px;
+}
+
+.add_project {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fa-plus {
+  opacity: 0.8;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .header_right > button {
+    padding: 10px;
+  }
+  .add_project {
+    display: none;
+  }
+
+  .fa-plus {
+    padding: 0;
+  }
+}

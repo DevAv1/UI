@@ -1,0 +1,32 @@
+.activity {
+  min-width: 330px;
+}
+
+.activity_row {
+  display: flex;
+  align-items: center;
+  padding: 30px 10px;;
+}
+.activity_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user_log_project {
+  display: flex;
+}
+
+.user_log_project div {
+  padding:0 3px;
+}
+
+.user_log_project .full_name, .task {
+  font-weight: bolder;
+}
+
+.activity_time {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}

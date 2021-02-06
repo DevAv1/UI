@@ -1,0 +1,111 @@
+{
+  "data": [
+    {
+      "users":[
+        {
+          "id": 1,
+          "fname": "Avi",
+          "lname": "Revah",
+          "avatar": "https://gravatar.com/avatar/fdc50667d751f119ce7554750685576c?s=400&d=robohash&r=x",
+          "messages":[
+            {
+              "author": "Will Smith",
+              "content": "Whats up??",
+              "timestamp": "02/06/2021,08:00",
+              "avatar": "https://gravatar.com/avatar/94eb6a1f8ea2ad1a92333739da44878e?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Ben Stiller",
+              "content": "Hi Brad, I wanna work with you...",
+              "timestamp": "02/04/2021,19:28",
+              "avatar": "https://gravatar.com/avatar/9433196c299ed9e67ae53fe866340148?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Bill Gates",
+              "content": "Yo Avi...sup?",
+              "timestamp": "02/04/2021,19:28",
+              "avatar": "https://gravatar.com/avatar/9433196c299ed9e67ae53fe866340148?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Eithan Hawk",
+              "content": "Hi Brad, I wanna work with you...",
+              "timestamp": "02/03/2021,15:00",
+              "avatar": "https://gravatar.com/avatar/e1cf8bb218eced475bbfd2a482b66568?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Elon Musk",
+              "content": "Lets build a Rocket!",
+              "timestamp": "02/03/2021,15:11",
+              "avatar": "https://gravatar.com/avatar/425c5b3ba450132e912d0ae7d55d091f?s=400&d=robohash&r=x"
+            }
+          ],
+          "tasks":[
+            {
+              "author": "Will Smith",
+              "task_content":"I'm thinking about making Bad Boys 4",
+              "due_date": "02/22/2021,18:34",
+              "avatar": "https://gravatar.com/avatar/94eb6a1f8ea2ad1a92333739da44878e?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Ben Stiller",
+              "task_content":"Just wanna be funny",
+              "due_date": "02/03/2021,15:11",
+              "avatar": "https://gravatar.com/avatar/9433196c299ed9e67ae53fe866340148?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Eithan Hawk",
+              "task_content":"Getting hired by UI",
+              "due_date": "02/02/2021,15:11",
+              "avatar": "https://gravatar.com/avatar/e1cf8bb218eced475bbfd2a482b66568?s=400&d=robohash&r=x"
+            },
+            {
+              "author": "Elon Musk",
+              "task_content":"Hack the pantagon!",
+              "due_date": "02/08/2021,15:11",
+              "avatar": "https://gravatar.com/avatar/94eb6a1f8ea2ad1a92333739da44878e?s=400&d=robohash&r=x"
+            }
+          ]
+        },
+        {
+
+        }
+      ],
+      "activities": [
+        {
+          "id": 1,
+          "full_name": "Brad Pitt",
+          "action": "added a new project",
+          "task_name": "UI project",
+          "timestamp": "02/06/2021,16:23",
+          "avatar": "https://gravatar.com/avatar/e1cf8bb218eced475bbfd2a482b66568?s=400&d=robohash&r=x"
+        },
+        {
+          "id": 2,
+          "full_name": "Avi Revah",
+          "action": "completed a task",
+          "task_name": "UI Test project",
+          "timestamp": "02/02/2021,16:44",
+          "avatar": "https://gravatar.com/avatar/fdc50667d751f119ce7554750685576c?s=400&d=robohash&r=x"
+        },
+        {
+          "id": 3,
+          "full_name": "John John",
+          "action": "created a new message",
+          "task_name": "UI Test project",
+          "timestamp": "02/03/2021,11:05",
+          "avatar": "https://gravatar.com/avatar/e1cf8bb218eced475bbfd2a482b66568?s=400&d=robohash&r=x"
+        },
+        {
+          "id": 4,
+          "full_name": "Elon Musk",
+          "action": "completed a task",
+          "task_name": "UI Test project",
+          "timestamp": "02/02/2021,23:00",
+          "avatar": "https://gravatar.com/avatar/94eb6a1f8ea2ad1a92333739da44878e?s=400&d=robohash&r=x"
+        }
+      ]
+    }
+    
+
+  ]
+}

@@ -1,0 +1,23 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #F6F7FA;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.app_nav {
+  display: inline-flex;
+  height: 100vh;
+}
+
+#rightSideWrapper {
+  width: 100%;
+  flex: 1;
+}

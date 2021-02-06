@@ -1,0 +1,87 @@
+.tasks {
+  min-width: 330px;
+}
+.task_details {
+  padding: 0 10px;
+}
+.task_details div {
+  color: #0E1A35;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.home_box_header span {
+  font-size: 24px;
+}
+
+.home_box .box-numbers {
+  display: flex;
+  font-size: 24px;
+}
+
+.tasks_circle {
+  height: 46px;
+  width: 46px;
+  border: none;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.messages_sum {
+  background: #5384FF;
+  margin-right: 11px;
+
+}
+
+.messages_delay_sum {
+  background: #F83C7B;
+}
+
+.tasks_box_leftside {
+  display: flex;
+}
+
+.tasks_box_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+  padding: 30px 20px;
+  height: 109px;
+
+}
+
+.tasks_box_main .task_timestamp {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 12px;
+}
+
+.tasks_box_main .urgent {
+  color:  #F83C7B;
+  display: flex;
+  align-items: center;
+}
+
+.letter_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+  min-width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background: #5384FF;
+}
+
+#more_btn {
+  font-size: 52px;
+  opacity: 0.5;
+}
+
