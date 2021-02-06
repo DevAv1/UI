@@ -15,10 +15,14 @@
 
 .user_log_project {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .user_log_project div {
   padding:0 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .user_log_project .full_name, .task {

@@ -1,8 +1,10 @@
 import React from 'react'
 import '../styles/home.css';
 import LinearProgress from '@material-ui/core/LinearProgress';
-
+import FilterOne from '../assets/pics/filter2.PNG';
+import FilterTwo from '../assets/pics/filterOne.PNG';
 import { Card } from '../components/Card';
+import { FilterCard } from '../components/FilterCard';
 import { Tasks } from '../components/home/Tasks';
 import { Messages } from '../components/home/Messages';
 import { Activity } from '../components/home/Activity';
@@ -23,10 +25,14 @@ export const Home = () => {
         <h1 className="user_greeting">Hello {userData[0].users[0].fname}!</h1>
         <div className="statistics_section">
           <div className="card-container">
-            <Card />
+            <FilterCard>
+              <div className="stats"><img src={FilterOne}/></div>
+            </FilterCard>
           </div>
           <div className="card-container">
-            <Card />
+            <FilterCard>
+              <div className="stats"><img src={FilterTwo}/></div>
+            </FilterCard>
           </div>
         </div>
         <div className="home_boxes_log">

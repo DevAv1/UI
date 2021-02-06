@@ -21,6 +21,8 @@
 
 .card-body {
   flex: 1;
+  max-height: 436px;
+  overflow: auto;
 }
 
 .box-numbers {

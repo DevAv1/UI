@@ -19,25 +19,22 @@ export const Messages = ({ userData }) => {
     <div className="messages">
       {
         userData[0].users[0].messages.sort(myCustomSort).map((msg, i) => {
-          while(i < 4) {
-            return (
-              <div className={`messages_box_main ${isNewMsg(msg.timestamp) ? "new_message" : ""}`}>
-                <Avatar src={msg.avatar}/>
-                <div className="messages_box_details">
-                  <div className="messages_user_time">
-                    <div className="messager_author">{msg.author}</div>
-                    <div className="time_statement">{dueDateHandler(msg.timestamp)}</div>
-                  </div>
-                  <div className="message">{msg.content}</div>
-                  <div className="messages_icons">
-                    <img src={BackArrow} alt=""/>
-                    <img src={SettingsIcon} alt=""/>
-                  </div>
+          return (
+            <div className={`messages_box_main ${isNewMsg(msg.timestamp) ? "new_message" : ""}`}>
+              <Avatar src={msg.avatar}/>
+              <div className="messages_box_details">
+                <div className="messages_user_time">
+                  <div className="messager_author">{msg.author}</div>
+                  <div className="time_statement">{dueDateHandler(msg.timestamp)}</div>
+                </div>
+                <div className="message">{msg.content}</div>
+                <div className="messages_icons">
+                  <img src={BackArrow} alt=""/>
+                  <img src={SettingsIcon} alt=""/>
                 </div>
               </div>
-            )
-          }
-          
+            </div>
+          )
         })
       }
       
